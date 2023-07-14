@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- icon Fevicon -->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="" type="" href="./css/nav.css"> -->
+
+    <!--media style -->
+    <link rel="stylesheet" href="./css/media-res.css">
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+
+    <!-- ----------------font-family-------------------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- ----------------font-awesome icon-------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <style>
+        /* .menu-color{
+            background: #0000 !important;
+        } */
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header class="header_fix pos-rel menu-color">
+        <div class="container p-10">
+            <div class="container_py-20">
+                <div class="row d-flex">
+                    <div class="logo-brand ">
+                        <a href="index.html">Feane</a>
+                    </div>
+                    <div class="row d-none nav">
+                        <div class="navbar d-flex-row">
+                            <ul>
+                                <li><a href="index.html">home</a></li>
+                                <li class="active"><a href="menu.html">menu</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="booktable.html">book table</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-icon navbar nav d-none dnone2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                            <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a href="#" class="order_online">Order Online</a>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i onclick="openNav()" class="fa-solid fa-bars menu-toggle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ---------------------------header End------------------------->
+
+
+   
+    <!---------------------------section 3--------------------->
+    <!---------------------------section 3--------------------->
+    <section class="section-3 p-80" id="section-3">
+        <div class="container">
+            <div class="list-menu">
+                <h3 class="text-center">Our Menu</h3>
+            </div>
+            <div class="list_item_menu d-flex-row text-center">
+                <ul class="row d-flex">
+                    <li class="list active_all" data-filter="all">All</li>
+                    <li class="list" data-filter="burger">Burger</li>
+                    <li class="list" data-filter="pizza">Pizza</li>
+                    <li class="list" data-filter="pasta">Pasta</li>
+                    <li class="list" data-filter="fires">Fries</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="burger">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f1.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza All</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="burger">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f2.png" alt="">
+                        </div> 
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="burger">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f3.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="pizza">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f4.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="pizza">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f5.png" alt="">
+                        </div>
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="pasta">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f7.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="pasta">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f6.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="fires">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f8.png" alt="">
+                        </div>
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="fires">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f9.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center p-25">
+                <a href="#" class="order_online">Order Now <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---------------------------section home end1-=--------------------->
+
+
+    <!-- ---------------------------section -=--------------------->
+    <!-- ---------------------------section--------------------->
+
+
+
+    <footer class="bg-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-33 text-white">
+                    <div class="footer-text p-25">
+                        <h3>
+                            Contact Us
+                        </h3>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> &nbsp; Location</a></li>
+                            <li><a href="tel:+01 1234567890"><i class="fa-solid fa-phone"></i>&nbsp; Call +01 1234567890</a>
+                            </li>
+                            <li><a href="mailto:demo123@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;
+                                    demo123@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="feane-box p-25">
+                        <h3><a class="text-white" href="./Feane.html">Feane</a></h3>
+                        <div class="p-text text-white">
+                            Necessary, making this the first true generator on the Internet. It uses a dictionary of
+                            over 200 Latin words, combined with
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="opening text-white p-25">
+                        <h3>Opening Hours</h3>
+                        <p class="Everyday">Everyday</p>
+                        <p class="time">10.00 Am -10.00 Pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-result text-center text-white">
+                <p class="mb-20">© 2022 All Rights Reserved By Free Html Templates</p>
+                <p class="">© Distributed By Tushar Suthar</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="./js/index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <!-- icon Fevicon -->
+    <link rel="icon" href="./images/favicon.png">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="" type="" href="./css/nav.css"> -->
+
+    <!--media style -->
+    <link rel="stylesheet" href="./css/media-res.css">
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ----------------font-family-------------------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- ----------------font-awesome icon-------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header class="header_fix pos-rel">
+        <div class="container p-10">
+            <div class="container_py-20">
+                <div class="row d-flex">
+                    <div class="logo-brand ">
+                        <a href="index.html">Feane</a>
+                    </div>
+                    <div class="row d-none nav">
+                        <div class="navbar d-flex-row">
+                            <ul>
+                                <li class="active"><a href="index.html">home</a></li>
+                                <li><a href="menu.html">menu</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="booktable.html">book table</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-icon navbar nav d-none dnone2">
+                            <a href="#"><i class="fa-solid fa-user"></i></a>
+                            <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a href="#" class="order_online">Order Online</a>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-bars menu-toggle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ---------------------------header End------------------------->
+
+
+    <!-- ---------------------------section home--------------------->
+    <!-- ---------------------------section home--------------------->
+    <section class="section_home" id="section_home">
+        <div class="container">
+            <div class="container_py-20">
+                <div class="Fast_Food">
+                    <div class="text text-white">
+                        <h3>Fast Food Restaurant</h3>
+                        <p>
+                            Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum
+                            quam
+                            quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni
+                            quos nihil
+                            ducimus libero ipsam.
+                        </p>
+                        <a href="#" class="order_online">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------section home End--------------------->
+
+
+    <!-- ---------------------------section 2--------------------->
+    <!-- ---------------------------section 2--------------------->
+    <section class="section_2 p-80" id="section_2">
+        <div class="container">
+            <div class="container_py-20">
+                <div class="row">
+                    <div class="col-50">
+                        <div class="row m-auto box-two">
+                            <div class="img-box img-box-radius ml-15">
+                                <img src="./images/o1.jpg" alt="">
+                            </div>
+                            <div class="contain">
+                                <h3 class="text-white">pasta testy</h3>
+                                <p class="text-white p-10"><span>20%</span>Off</p>
+                                <a href="#" class="order_online">Order Now <i
+                                        class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <div class="row m-auto box-two">
+                            <div class="img-box img-box-radius ml-15">
+                                <img src="./images/o2.jpg" alt="">
+                            </div>
+                            <div class="contain">
+                                <h3 class="text-white">Pizza Days</h3>
+                                <p class="text-white p-10"><span>15%</span>Off</p>
+                                <a href="#" class="order_online">Order Now <i
+                                        class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---------------------------section 3--------------------->
+    <!---------------------------section 3--------------------->
+    <section class="section-3 p-80" id="section-3">
+        <div class="container">
+            <div class="list-menu">
+                <h3 class="text-center">Our Menu</h3>
+            </div>
+            <div class="list_item_menu d-flex-row text-center">
+                <ul class="row d-flex">
+                    <li class="list active_all" data-filter="all">All</li>
+                    <li class="list" data-filter="burger">Burger</li>
+                    <li class="list" data-filter="pizza">Pizza</li>
+                    <li class="list" data-filter="pasta">Pasta</li>
+                    <li class="list" data-filter="fires">Fries</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <div class="col-33 itemBox" data-item="burger">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f1.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza All</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-33 itemBox" data-item="burger">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f2.png" alt="">
+                        </div> 
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33 itemBox" data-item="pizza">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f3.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33 itemBox" data-item="fires">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f3.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-33 itemBox" data-item="pizza">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f4.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33 itemBox" data-item="pizza">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f5.png" alt="">
+                        </div>
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33 itemBox" data-item="pasta">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f7.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-33 itemBox" data-item="pasta">
+                    <div class="card bg-color  mb-20" >
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f6.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-33 itemBox"  data-item="fires">
+                    <div class="card bg-color  mb-20">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="./images/f9.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+
+            <div class="text-center p-25">
+                <a href="#" class="order_online">Order Now <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---------------------------section home end1-=--------------------->
+
+
+    <!-- ---------------------------section -=--------------------->
+    <!-- ---------------------------section--------------------->
+
+
+    <section class="big-burger p-80" id="big-burger">
+        <div class="container">
+            <div class="row">
+                <div class="col-50">
+                    <div class="bargarImgBox">
+                        <img src="./images/about-img.png" alt="" class="img">
+                    </div>
+                </div>
+
+                <div class="col-50">
+                    <div class="summery">
+                        <div class="summery-text">
+                            <h2 class="text-white">We Are Feane</h2>
+                            <p class="text-white">There are many variations of passages of Lorem Ipsum available, but
+                                the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable. If you are going to use a passage of Lorem Ipsum, you
+                                need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                            <a href="#" class="order_online">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------------------Book Table ------------ -->
+    <section class="book_table p-80" id="book_table">
+        <div class="container">
+            <h3 class="contact-h3 mb-20">Book Your Table</h3>
+            <div class="row">
+                <div class="col-50">
+                    <div class="paddd">
+                        <form action="">
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                            <input type="text" class="form-control" placeholder="Your Name" />
+
+                            <input type="text" class="form-control" placeholder="Phone Number" />
+
+                            <input type="email" class="form-control" placeholder="Your Email" />
+
+                            <input type="date" class="form-control">
+
+                            <select class="form-control nice-select wide mb-20">
+                                <option value="" disabled selected>How many persons?</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+
+
+                            <input type="submit" class="order_online" value="Book Now">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <div class="img-map">
+                        <div class="img-box-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50110.588421383334!2d72.57238768293487!3d23.05699884970755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8555c9d77197%3A0xa3dbd804a36c5a97!2sSMART%20Point!5e0!3m2!1sen!2sin!4v1666292778620!5m2!1sen!2sin"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer-section p-80">
+        <div class="container">
+            <h3 class="text-center">What Says Our Customers</h3>
+            <div class="row">
+                <div class="col-50">
+                    <div class="box-scroll p-25">
+                        <div class="text-slider p-25">
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+
+                            <h6 class="text-white">
+                                Moana Michell
+                            </h6>
+                            <p class="magna text-white">
+                                magna aliqua
+                            </p>
+                        </div>
+                        <div class="user-images">
+                            <img src="./images/client1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-50">
+                    <div class="box-scroll p-25">
+                        <div class="text-slider p-25">
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                            </p>
+
+                            <h6 class="text-white">
+                                Mike Hamell
+                            </h6>
+                            <p class="magna text-white">
+                                magna aliqua
+                            </p>
+                        </div>
+                        <div class="user-images">
+                            <img src="./images/client2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav d-flex-row">
+                <button type="button" class="left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                <button type="button" class="right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-color" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-33 text-white">
+                    <div class="footer-text p-25">
+                        <h3>
+                            Contact Us
+                        </h3>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> &nbsp; Location</a></li>
+                            <li><a href="tel:+01 1234567890"><i class="fa-solid fa-phone"></i>&nbsp; Call +01 1234567890</a>
+                            </li>
+                            <li><a href="mailto:demo123@gmail.com"><i class="fa-solid fa-envelope"></i>&nbsp;
+                                    demo123@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="feane-box p-25">
+                        <h3><a class="text-white" href="./Feane.html">Feane</a></h3>
+                        <div class="p-text text-white">
+                            Necessary, making this the first true generator on the Internet. It uses a dictionary of
+                            over 200 Latin words, combined with
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="opening text-white p-25">
+                        <h3>Opening Hours</h3>
+                        <p class="Everyday">Everyday</p>
+                        <p class="time">10.00 Am -10.00 Pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-result text-center text-white">
+                <p class="mb-20">© 2022 All Rights Reserved By Free Html Templates</p>
+                <p class="">© Distributed By Tushar Suthar</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="./js/index.js"></script>
+
+
+</body>
+
+</html>

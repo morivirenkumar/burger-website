@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <!-- icon Fevicon -->
+    <link rel="icon" href="../images/favicon.png">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="" type="" href="./css/nav.css"> -->
+
+    <!--media style -->
+    <link rel="stylesheet" href="../css/media-res.css">
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ----------------font-family-------------------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- ----------------font-awesome icon-------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <style>
+        .product {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .col-3{
+            width: 350px;
+            height: 450px;
+            margin: 10px;
+            overflow: hidden;
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="section-3 p-80" id="section-3">
+        <div class="container">
+            <div class="list-menu">
+                <h3 class="text-center">Our Menu</h3>
+            </div>
+            <div class="list_item_menu d-flex-row text-center">
+                <ul class="row d-flex">
+                    <li class="list active_all" data-filter="all">All</li>
+                    <li class="list" data-filter="burger">Burger</li>
+                    <li class="list" data-filter="pizza">Pizza</li>
+                    <li class="list" data-filter="pasta">Pasta</li>
+                    <li class="list" data-filter="fires">Fries</li>
+                </ul>
+            </div>
+
+            <div class="product">
+                <div class="col-3 col-33">
+                    <div class="card bg-color itemBox mb-20" data-item="burger">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f1.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza All</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="burger">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f2.png" alt="">
+                        </div>
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="burger">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f3.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="pizza">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f4.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="pizza">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f5.png" alt="">
+                        </div>
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="pasta">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f7.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="pasta">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f6.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="fires">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f8.png" alt="">
+                        </div>
+                        <div class="card-body p-25 ">
+                            <h5 class="text-white">Delicious Burger</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card bg-color itemBox mb-20" data-item="fires">
+                        <div class="card-box-img bg-color-img-box d-flex-row brdr p-25">
+                            <img src="../images/f9.png" alt="">
+                        </div>
+                        <div class="card-body p-25">
+                            <h5 class="text-white">Delicious Pizza</h5>
+                            <p class="text-white">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem
+                                repellendus sed eaque</p>
+                            <div class="cart d-flex">
+                                <p class="text-white"><span class="prize">$20</span></p>
+                                <a href="#" class="btn"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center p-25">
+                <a href="#" class="order_online">Order Now <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
